@@ -4,7 +4,7 @@ This repo is based on the [Nx Examples](https://github.com/nrwl/nx-examples) rep
 but setup in a way to illustrate some of the benefits of using Nx and NxCloud together to setup CI.
 
 The e2e targets are setup to serve the app statically from dist:
-
+fred
 <img src="static_e2e.png">
 
 this is how the apps are served statically:
