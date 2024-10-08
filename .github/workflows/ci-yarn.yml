@@ -28,6 +28,6 @@ jobs:
         with:
           node-version: 18
           cache: 'yarn'
-
+      - uses: nrwl/nx-set-shas@v4
       - run: yarn install --frozen-lockfile
       - run: yarn nx affected -t lint test build e2e-ci
