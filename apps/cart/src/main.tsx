@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import App from './app/app';
 
 const root = ReactDOM.createRoot(
+  //Fred
   document.getElementById('root') as HTMLElement
 );
 root.render(
